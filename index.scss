@@ -15,3 +15,21 @@ input[name="sample"] {
   transform: scale(0.7);
   transform-origin: 0px 0px;
 }
+
+.text-wrap {
+  position: relative;
+  width: 400px;
+  height: 60px;
+  border: 1px solid;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+span {
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  height: 1px;
+  display: inline-block;
+  background: #0e6edf;
+}
