@@ -1,48 +1,68 @@
-input[name="sample"] {
-  font-weight: bold;
-  &::placeholder{
-    font-weight: normal;
+// input[name="sample"] {
+//   font-weight: bold;
+//   &::placeholder{
+//     font-weight: normal;
+//   }
+// }
+
+// .seven{
+//   font-size: 10px;
+//   transform: scale(0.7);
+//   transform-origin: 0px 0px;
+// }
+// .five{
+//   font-size: 10px;
+//   transform: scale(0.7);
+//   transform-origin: 0px 0px;
+// }
+
+// .text-wrap {
+//   position: relative;
+//   width: 400px;
+//   height: 60px;
+//   border: 1px solid;
+//   padding: 12px;
+//   display: flex;
+//   align-items: center;
+// }
+// .border span {
+//   position: absolute;
+//   top: 50%;
+//   width: 400px;
+//   height: 1px;
+//   display: inline-block;
+//   background: #0e6edf;
+// }
+
+// .key-visual{
+//   margin-top: 30px;
+//   height: 100vh;
+//   width: 100%;
+//   position: relative;
+// }
+// .key-visual >img {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
   }
 }
-
-.seven{
-  font-size: 10px;
-  transform: scale(0.7);
-  transform-origin: 0px 0px;
+ul > li:nth-child(odd) {
+    color: red;
 }
-.five{
-  font-size: 10px;
-  transform: scale(0.7);
-  transform-origin: 0px 0px;
+ul > li:nth-child(even) {
+    color: green;
 }
-
-.text-wrap {
-  position: relative;
-  width: 400px;
-  height: 60px;
-  border: 1px solid;
-  padding: 12px;
-  display: flex;
-  align-items: center;
+div > span + span {
+    font-weight: bold;
 }
-span {
-  position: absolute;
-  top: 50%;
-  width: 400px;
-  height: 1px;
-  display: inline-block;
-  background: #0e6edf;
-}
-
-.key-visual{
-  margin-top: 30px;
-  height: 100vh;
-  width: 100%;
-  position: relative;
-}
-.key-visual >img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+i,p {
+    color: blue;
 }
