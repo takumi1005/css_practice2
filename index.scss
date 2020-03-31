@@ -75,15 +75,22 @@
 //   color: blue !important;
 // }
 
-ul{
-  list-style: none;
-  border-top: 1px solid;
-  display: inline-block;
-  padding: 0;
-  li{
-    border-bottom: 1px dotted;
-    &:last-child{
-      border-bottom: 1px solid;
-    }
+// ul{
+//   list-style: none;
+//   border-top: 1px solid;
+//   display: inline-block;
+//   padding: 0;
+//   li{
+//     border-bottom: 1px dotted;
+//     &:last-child{
+//       border-bottom: 1px solid;
+//     }
+//   }
+// }
+
+.logo{
+  width: 300px;
+  img{
+    filter: blur(6px);
   }
 }

@@ -1,14 +1,7 @@
-ul {
-  list-style: none;
-  border-top: 1px solid;
-  display: inline-block;
-  padding: 0;
+.logo {
+  width: 300px;
 }
 
-ul li {
-  border-bottom: 1px dotted;
-}
-
-ul li:last-child {
-  border-bottom: 1px solid;
+.logo img {
+  filter: blur(6px);
 }
