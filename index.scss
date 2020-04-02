@@ -98,3 +98,8 @@
 // .wrap {
 //   background-color: rgba(000, 000, 000, 0.5);
 // }
+
+p {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
