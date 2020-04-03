@@ -1,4 +1,9 @@
-p {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+.text {
+  margin-bottom: 16px;
+}
+
+.text > span {
+  min-width: 300px;
+  background-color: yellow;
+  display: inline-block;
 }

@@ -99,7 +99,16 @@
 //   background-color: rgba(000, 000, 000, 0.5);
 // }
 
-p {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+// p {
+//   writing-mode: vertical-rl;
+//   text-orientation: upright;
+// }
+
+.text {
+  margin-bottom: 16px;
+}
+.text > span {
+  min-width: 300px;
+  background-color: yellow;
+  display: inline-block;
 }
