@@ -1,9 +1,15 @@
-.text {
-  margin-bottom: 16px;
+.img-area {
+  background-color: #000;
+  display: inline-block;
 }
 
-.text > span {
-  min-width: 300px;
-  background-color: yellow;
-  display: inline-block;
+.img-area img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.img-area img:hover {
+  transition: 1s;
+  width: 100%;
 }

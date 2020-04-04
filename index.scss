@@ -104,11 +104,25 @@
 //   text-orientation: upright;
 // }
 
-.text {
-  margin-bottom: 16px;
-}
-.text > span {
-  min-width: 300px;
-  background-color: yellow;
+// .text {
+//   margin-bottom: 16px;
+// }
+// .text > span {
+//   min-width: 300px;
+//   background-color: yellow;
+//   display: inline-block;
+// }
+
+.img-area {
+  background-color: #000;
   display: inline-block;
+}
+.img-area img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  &:hover {
+    transition: 1s;
+    width: 100%;
+  }
 }
