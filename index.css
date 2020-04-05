@@ -1,15 +1,1 @@
-.img-area {
-  background-color: #000;
-  display: inline-block;
-}
-
-.img-area img {
-  width: 80%;
-  display: block;
-  margin: auto;
-}
-
-.img-area img:hover {
-  transition: 1s;
-  width: 100%;
-}
+null
