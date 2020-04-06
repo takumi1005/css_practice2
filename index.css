@@ -1,1 +1,29 @@
-null
+section {
+  width: 1000px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+section + section > .box.box--green {
+  float: right;
+}
+
+.box {
+  width: 200px;
+  float: left;
+}
+
+.box--red {
+  height: 100px;
+  background-color: red;
+}
+
+.box--blue {
+  height: 200px;
+  background-color: blue;
+}
+
+.box--green {
+  height: 300px;
+  background-color: green;
+}
