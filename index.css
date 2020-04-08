@@ -1,29 +1,15 @@
-section {
-  width: 1000px;
-  margin-bottom: 30px;
-  overflow: hidden;
+ul {
+  width: 300px;
+  list-style: none;
 }
 
-section + section > .box.box--green {
-  float: right;
+ul li {
+  margin-bottom: 8px;
+  padding: 4px;
+  font-size: 12px;
+  border: 1px solid #e7e7e7;
 }
 
-.box {
-  width: 200px;
-  float: left;
-}
-
-.box--red {
-  height: 100px;
-  background-color: red;
-}
-
-.box--blue {
-  height: 200px;
-  background-color: blue;
-}
-
-.box--green {
-  height: 300px;
-  background-color: green;
+ul li:last-child {
+  margin-bottom: 0;
 }
