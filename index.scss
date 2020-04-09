@@ -152,16 +152,26 @@
 //   background-color: green;
 // }
 
-ul {
-  width: 300px;
-  list-style: none;
-  li {
-    margin-bottom: 8px;
-    padding: 4px;
-    font-size: 12px;
-    border: 1px solid #e7e7e7;
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
+// ul {
+//   width: 300px;
+//   list-style: none;
+//   li {
+//     margin-bottom: 8px;
+//     padding: 4px;
+//     font-size: 12px;
+//     border: 1px solid #e7e7e7;
+//     &:last-child {
+//       margin-bottom: 0;
+//     }
+//   }
+// }
+
+span::before {
+  content: "";
+  display: block;
+  background-image: url(https://ninjacode.work/assets/img/kv.png);
+  width: 250px;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
