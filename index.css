@@ -1,9 +1,11 @@
-span::before {
+span::after {
   content: "";
-  display: block;
-  background-image: url(https://ninjacode.work/assets/img/kv.png);
-  width: 250px;
-  height: 140px;
+  display: inline-block;
+  background-image: url(https://ninjacode.work//assets/img/shuriken.png);
+  width: 12px;
+  height: 12px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 4px;
+  vertical-align: -1px;
 }
