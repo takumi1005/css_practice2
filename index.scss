@@ -223,3 +223,7 @@
 // p {
 //   line-height: 30px;
 // }
+
+section > p:first-of-type {
+  color: red;
+}
