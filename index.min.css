@@ -1,1 +1,1 @@
-.box{height:200px;width:200px;background:black;color:white;font-size:20px;padding:50px;box-sizing:border-box}
+ul li{list-style:none}ul li:nth-child(n+4){color:red}
