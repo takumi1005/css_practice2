@@ -269,9 +269,17 @@
 //   }
 // }
 
-div {
-  width: 200px;
-  margin: auto;
-  height: 200px;
-  overflow-y: scroll;
+// div {
+//   width: 200px;
+//   margin: auto;
+//   height: 200px;
+//   overflow-y: scroll;
+// }
+
+input {
+  height: 40px;
+  padding: 0px 40px;
+  background: #edf0f2;
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.2) inset;
+  font-size: 14px;
 }
