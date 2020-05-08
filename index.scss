@@ -242,9 +242,29 @@
 //   box-sizing: border-box;
 // }
 
-ul li {
-  list-style: none;
-  &:nth-child(n + 4) {
-    color: red;
+// ul li {
+//   list-style: none;
+//   &:nth-child(n + 4) {
+//     color: red;
+//   }
+// }
+
+section {
+  display: flex;
+  flex-direction: column;
+  .num01 {
+    order: 4;
+  }
+  .num02 {
+    order: 1;
+  }
+  .num03 {
+    order: 3;
+  }
+  .num04 {
+    order: 5;
+  }
+  .num05 {
+    order: 2;
   }
 }
