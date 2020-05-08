@@ -1,1 +1,1 @@
-section{display:flex;flex-direction:column}section .num01{order:4}section .num02{order:1}section .num03{order:3}section .num04{order:5}section .num05{order:2}
+div{width:200px;margin:auto;height:200px;overflow-y:scroll}
