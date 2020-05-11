@@ -293,6 +293,19 @@
 //   overflow: hidden;
 // }
 
+// @media screen and (max-width: 768px) {
+//   .block p {
+//     color: red;
+//   }
+// }
+
+/* ipadの挙動 */
+@media screen and (max-width: 1024px) {
+  .block p {
+    color: green;
+  }
+}
+/* スマホ時の挙動 */
 @media screen and (max-width: 768px) {
   .block p {
     color: red;
