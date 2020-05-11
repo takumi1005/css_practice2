@@ -1,6 +1,5 @@
-.block p {
-  width: 200px;
-  display: inline-block;
-  max-height: 100px;
-  overflow: hidden;
+@media screen and (max-width: 768px) {
+  .block p {
+    color: red;
+  }
 }
