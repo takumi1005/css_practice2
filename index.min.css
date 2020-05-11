@@ -1,1 +1,1 @@
-p{margin-bottom:16px}p:nth-child(2){visibility:hidden}
+section{width:400px;display:grid;grid-template-rows:100px 100px;grid-template-columns:200px 1fr}div{background-color:red}div:nth-child(2){background-color:green}div:nth-child(3){background-color:yellow}div:nth-child(4){background-color:blue}
