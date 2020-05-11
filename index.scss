@@ -299,15 +299,24 @@
 //   }
 // }
 
-/* ipadの挙動 */
-@media screen and (max-width: 1024px) {
-  .block p {
-    color: green;
-  }
-}
-/* スマホ時の挙動 */
-@media screen and (max-width: 768px) {
-  .block p {
-    color: red;
-  }
+// /* ipadの挙動 */
+// @media screen and (max-width: 1024px) {
+//   .block p {
+//     color: green;
+//   }
+// }
+// /* スマホ時の挙動 */
+// @media screen and (max-width: 768px) {
+//   .block p {
+//     color: red;
+//   }
+// }
+
+div {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: red;
+  transform: rotate(45deg);
+  margin-top: 100px;
 }
