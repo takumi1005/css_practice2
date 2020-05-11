@@ -1,1 +1,1 @@
-section{width:400px;display:grid;grid-template-rows:100px 100px;grid-template-columns:200px 1fr}div{background-color:red}div:nth-child(2){background-color:green}div:nth-child(3){background-color:yellow}div:nth-child(4){background-color:blue}
+section{width:300px;height:300px;overflow-y:auto}section::-webkit-scrollbar{width:10px}section::-webkit-scrollbar-track{background:yellow;border:solid 1px #000}section::-webkit-scrollbar-thumb{background:red;border-radius:10px}
