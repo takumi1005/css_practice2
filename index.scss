@@ -312,11 +312,18 @@
 //   }
 // }
 
-div {
-  width: 200px;
-  height: 100px;
-  border: 1px solid #000;
-  background-color: red;
-  transform: rotate(45deg);
-  margin-top: 100px;
+// div {
+//   width: 200px;
+//   height: 100px;
+//   border: 1px solid #000;
+//   background-color: red;
+//   transform: rotate(45deg);
+//   margin-top: 100px;
+// }
+
+p {
+  margin-bottom: 16px;
+}
+p:nth-child(2) {
+  visibility: hidden;
 }
